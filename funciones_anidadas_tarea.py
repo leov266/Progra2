@@ -20,6 +20,7 @@ def calculadora(num1, num2, operacion='suma'):
         else:
             print(f'{num1} / {num2} = no esta definido')
 
+#Corre bien estas operaciones:
 calculadora(5, 3, 'multiplicacion')
 calculadora(5, 3, 'resta') 
 calculadora(5, 3) 
@@ -27,4 +28,4 @@ calculadora(-5, -5, 'division')
 calculadora(5, -5, 'division')
 calculadora(5, 0, 'division')
 calculadora(5, 3, 'suma')
-#print(suma(2,2))               
+              
